@@ -1,0 +1,28 @@
+div{
+	font-family: 'Arial';
+	background-color: #91E915;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	margin: 15px 2px;
+	padding: 5px 40px;
+	width: 80px;
+	vertical-align: middle;
+
+}
+.veloz{
+		-webkit-animation:1s veloz 1;
+}
+@-webkit-keyframes veloz{
+	15%{
+		opacity: 1;
+	}
+	100%{
+		-webkit-transform:translateX(-200%)
+						  skewX(-70deg);
+						  opacity: 0;
+	}
+}

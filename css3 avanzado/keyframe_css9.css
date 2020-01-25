@@ -1,0 +1,35 @@
+div{
+	font-family: 'Arial';
+	background-color: #91E915;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	margin: 15px 2px;
+	padding: 5px 40px;
+	width: 80px;
+	vertical-align: middle;
+
+}
+.inrotativo{
+	-webkit-animation:1s inrotativo 1;
+}
+@-webkit-keyframes inrotativo{
+	0%{
+		opacity: 0;
+		-webkit-transform:translateX(-100%)
+						  rotate(-260deg);
+	}
+}
+.outrotativo{
+	-webkit-animation:1s outrotativo 1;
+}
+@-webkit-keyframes outrotativo{
+	100%{
+		opacity: 0;
+		-webkit-transform:translateX(100%)
+						  rotate(-260deg);
+	}
+}

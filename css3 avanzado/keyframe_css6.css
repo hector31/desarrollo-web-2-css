@@ -1,0 +1,32 @@
+div{
+	font-family: 'Arial';
+	background-color: #91E915;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	margin: 15px 2px;
+	padding: 5px 40px;
+	width: 80px;
+	vertical-align: middle;
+
+}
+.balanceo:hover{
+	-webkit-animation:1s balanceo 1;
+}
+@-webkit-keyframes balanceo{
+	20%{
+		-webkit-transform:scale(0.7)
+						  rotate(-6deg);
+	}
+	30%,70%{
+		-webkit-transform:scale(1.1)
+						  rotate(6deg);
+	}
+	50%,90%{
+		-webkit-transform:scale(1.1)
+						  rotate(-6deg);
+	}
+}

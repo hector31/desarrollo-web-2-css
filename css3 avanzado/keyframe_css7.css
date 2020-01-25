@@ -1,0 +1,40 @@
+div{
+	font-family: 'Arial';
+	background-color: #91E915;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	margin: 15px 2px;
+	padding: 5px 40px;
+	width: 80px;
+	vertical-align: middle;
+
+}
+.vaiven:hover{
+	-webkit-animation:1s vaiven 1;
+}
+@-webkit-keyframes vaiven{
+	15%{
+		-webkit-transform: rotate(-10deg)
+						   translateX(-25%);
+	}
+	30%{
+		-webkit-transform: rotate(5deg)
+						   translateX(20%);
+	}
+	45%{
+		-webkit-transform: rotate(-3deg)
+						   translateX(-10%);
+	}
+	60%{
+		-webkit-transform: rotate(2deg)
+						   translateX(5%);
+	}
+	75%{
+		-webkit-transform: rotate(-1deg)
+						   translateX(-3%);
+	}
+}
